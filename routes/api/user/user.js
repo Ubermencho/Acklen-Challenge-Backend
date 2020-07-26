@@ -6,10 +6,10 @@ var router = express.Router();
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "usercollectiontracker",
-    password: "collectiontracker",
-     database: "collectiontrackerdb"
+    host: "bubxry4m3gslfwuwmoot-mysql.services.clever-cloud.com",
+    user: "uodndmjbul8taw37",
+    password: "cry8QvUG25tRSdWOzLe3",
+     database: "bubxry4m3gslfwuwmoot"
 });
 
 

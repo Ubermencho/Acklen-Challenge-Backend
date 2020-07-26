@@ -6,10 +6,11 @@ var router = express.Router();
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-    host: "mysql://uodndmjbul8taw37:cry8QvUG25tRSdWOzLe3@bubxry4m3gslfwuwmoot-mysql.services.clever-cloud.com:3306/bubxry4m3gslfwuwmoot",
+    host: "bubxry4m3gslfwuwmoot-mysql.services.clever-cloud.com",
     user: "uodndmjbul8taw37",
     password: "cry8QvUG25tRSdWOzLe3",
-     database: "bubxry4m3gslfwuwmoot"
+     database: "bubxry4m3gslfwuwmoot",
+     port:"3306",
 });
 
 
